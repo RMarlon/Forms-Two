@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient( #F5FFFA, #F0FFF0,#E0FFFF, #F5FFFA);
+}
+
+input{
+    border: none;
+}
+
+fieldset + fieldset{
+    margin-top: 20px;
+}
+
+fieldset{
+    border: 2px solid #6495ED;
+    width: 500px;
+}
+
+legend{
+    border: 2px solid #6495ED;
+    padding: 20px;
+    font-weight: 600;
+    color: #87CEFA;
+    text-shadow: 0px 0px 1px #778899;
+}
+
+.title{
+    margin:40px 0;
+    color: #778899;
+    text-shadow: 0 0 3px #6495ED;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 999px;
+    padding: 20px;
+}
+
+.container label{
+    margin: 10px;
+    color: #778899;
+}
+
+.container input[name="name"], [type="text"], [type="mail"]{
+    color: #778899;
+    padding: 5px;
+    border: 1px solid #4682B4;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.number{
+    width: 60px;
+    text-align: center;
+}
+
+select{
+    border: none;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    color: #778899;
+    width: 180px;
+    border: 1px solid #6495ED;
+    border-radius: 5px;
+}
+
+.btn_form{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btn_form button{
+    padding: 20px;
+    margin: 0 10px;
+    text-transform: uppercase;
+    border: none;
+    border: 1px solid #6495ED;
+    border-radius: 5px;
+    background-color: #87CEFA;
+    box-shadow: 0 0 3px #778899;
+    color: white;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+.btn_form button:hover{
+    box-shadow: 0 0 3px #00BFFF;
+}

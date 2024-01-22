@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Formulary</title>
+</head>
+
+<body>
+    <form action="">
+        <h1 class="title">Pre-registration form</h1>
+        <fieldset class="container">
+            <legend>Personal Data</legend>
+
+            <label for="">
+                Student's name
+                <input type="text" name="name" required minlength="3" placeholder="Enter your name">
+            </label>
+
+            <label for="">
+                Student’s last name
+                <input type="text" name="name" required minlength="3" placeholder="Enter your last name">
+            </label>
+
+            <label for="">
+                Date of birth (aaa/mm/dd)
+                <input class="number" type="text" required placeholder="aaaa"> /
+                <input class="number" type="text" required placeholder="mm"> /
+                <input class="number" type="text" required placeholder="dd">
+            </label>
+
+            <label for="">
+                Mother's name
+                <input type="text" name="name" required minlength="3" placeholder="Name of the mother">
+            </label>
+
+            <label for="">
+                Mother's name
+                <input type="text" name="name" required minlength="3" placeholder="Name of your father">
+            </label>
+
+            <label for="">
+                Phone
+                <span>
+                    DDD <input class="number" type="text" required minlength="3" placeholder="DDD">
+                </span>
+
+                <span>
+                    Number <input type="text" minlength="8" placeholder="9.xxxx-xxxx">
+                </span>
+            </label>
+
+            <label for="">
+                E-mail
+                <input type="mail" required placeholder="Enter your email">
+            </label>
+        </fieldset>
+
+        <fieldset class="container">
+            <legend>Registration Information</legend>
+
+            <label for="">
+                Class
+                <select name="" id="">
+                    <option value="">Primary school</option>
+                    <option value="">Elementary school</option>
+                    <option value="">High school</option>
+                    <option value="">Higher education</option>
+                </select>
+            </label>
+
+            <label for="">
+                Turn
+                <span>
+                    Morning
+                    <input type="radio" value="Morning">
+                </span>
+
+                <span>
+                    Afternoon
+                    <input type="radio" value="Afternoon">
+                </span>
+
+                <span>
+                    Night
+                    <input type="radio" value="Night">
+                </span>
+            </label>
+
+            <label for="">
+                Extracurricular Activities
+
+                <input type="checkbox" value="Computer Science">
+                <input type="checkbox" value="Martial Arts">
+                <input type="checkbox" value="Painting">
+                <input type="checkbox" value="Music">
+                <input type="checkbox" value="Dance">
+                <input type="checkbox" value="Soccer">
+            </label>
+        </fieldset>
+
+        <div class="btn_form">
+            <button>Send form</button>
+            <button>Clear form</button>
+        </div>
+    </form>
+</body>
+
+</html>
